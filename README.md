@@ -3,6 +3,7 @@
 - [Install](#Install-MongoDB)
 - [Import Data](#Import-Data)
 - [Database Commands](#Database-Commands)
+- [Collection Commands](#Collection-Commands)
 - [Row(Document) Commands](#Row(Document)-Commands)
 - [Update a row](#Update-a-row)
 - [Find in a MongoDb Database](#Find-in-a-MongoDb-Database)
