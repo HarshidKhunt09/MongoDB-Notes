@@ -1,9 +1,20 @@
 # MongoDB-Notes
 
 - [Install](#Install-MongoDB)
+- [Import Data](#Import-Data)
+- [Database Commands](#Database-Commands)
+- [Row(Document) Commands](#Row(Document)-Commands)
+- [Update a row](#Update-a-row)
+- [Find in a MongoDb Database](#Find-in-a-MongoDb-Database)
+- [Operators](#Operators)
+- [Managing Index](#Managing-Index)
+- [Authentication & Authorization](#Authentication-&-Authorization)
+- [Backup](#Backup)
 
 ## Install MongoDB
 Add a Path of bin folder into System Property.
+MongoDB Compass - GUI
+MongoDB Atlas - Cloud Storage
 
 ## mongod
 "mongod" is the "Mongo Daemon" it's basically the host process for the database.
@@ -267,3 +278,5 @@ mongodump
 ```
 mongorestore
 ```
+
+--------------
