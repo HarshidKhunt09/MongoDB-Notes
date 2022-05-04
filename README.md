@@ -4,12 +4,12 @@
 - [Import Data](#Import-Data)
 - [Database Commands](#Database-Commands)
 - [Collection Commands](#Collection-Commands)
-- [Row(Document) Commands](#Row(Document)-Commands)
+- [Row(Document) Commands](#Row-Document-Commands)
 - [Update a row](#Update-a-row)
 - [Find in a MongoDb Database](#Find-in-a-MongoDb-Database)
 - [Operators](#Operators)
 - [Managing Index](#Managing-Index)
-- [Authentication & Authorization](#Authentication-&-Authorization)
+- [Authentication & Authorization](#Authentication-and-Authorization)
 - [Backup](#Backup)
 
 ## Install MongoDB
@@ -72,7 +72,7 @@ db.createCollection('comments')
 db.comments.drop()
 ```
 
-## Row(Document) Commands
+## Row-Document Commands
 
 ### Show all Rows in a Collection
 ```
@@ -244,7 +244,7 @@ db.comments.createIndex({"name": 1})
 db.comments.dropIndex({"name": 1})
 ```
 
-## Authentication & Authorization
+## Authentication and Authorization
 
 ### Create user
 ```
